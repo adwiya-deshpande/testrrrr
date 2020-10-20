@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/onsenui/css/onsen-css-components.min.css"
+    />
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+  </head>
+<link rel="stylesheet" href="./onsen/theme.css">
+<link rel="stylesheet" href="./onsen/onsen-css-components.css">
+<link rel="stylesheet" href="./onsen/onsen-css-components.min.css">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="./src/styles.css">
+  <body>
+    <div class="toolbar toolbar--material" style="background: #075E54;">
+    
+      <div class="toolbar__center toolbar--material__center">
+        Whatsapp
+      </div>
+      <div class="toolbar__right toolbar--material__right">
+        <span class="toolbar-button toolbar-button--material">
+          <i class="zmdi zmdi-search"></i>
+        </span>
+				<i class="list-item__icon list-item--material__icon zmdi zmdi-comment"></i>
+        <span class="toolbar-button toolbar-button--material">
+          <i class="zmdi zmdi-more-vert"></i>
+        </span>
+      </div>
+    </div>
+    <div class="tabbar tabbar--top tabbar--material">
+      <label class="tabbar__item tabbar--material__item">
+        <input type="radio" name="tabbar-material-a" checked="checked" />
+        <button class="tabbar__button tabbar--material__button" style="background: #075E54;">
+          Calls
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--material__item">
+        <input type="radio" name="tabbar-material-a" />
+        <button class="tabbar__button tabbar--material__button"  style="background: #075E54;">
+          Chats
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--material__item">
+        <input type="radio" name="tabbar-material-a" />
+        <button class="tabbar__button tabbar--material__button"  style="background: #075E54;">
+          Contacts
+        </button>
+      </label>
+		</div>
+		<ul class="list list--material">
+			<li class="list-item list-item--material">
+				<div class="list-item__left list-item--material__left">
+					<img class="list-item__thumbnail list-item--material__thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wwJCB8v/9zErgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAvSURBVFjD7c0BDQAACAMgtX+KJzWGm4MCdJK6MHVELBaLxWKxWCwWi8VisVj8MV7qBgI2A8rYpgAAAABJRU5ErkJggg==">
+				</div>
+		
+				<div class="list-item__center list-item--material__center">
+					<div class="list-item__title list-item--material__title">Alice</div>
+					<div class="list-item__subtitle list-item--material__subtitle">Description</div>
+				</div>
+		
+				<div class="list-item__right list-item--material__right">
+					<i style="color:#ccc" class="list-item__icon list-item--material__icon zmdi zmdi-comment"></i>
+				</div>
+			</li>
+		
+			<li class="list-item list-item--material">
+				<div class="list-item__left list-item--material__left">
+					<img class="list-item__thumbnail list-item--material__thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wwJCB8v/9zErgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAvSURBVFjD7c0BDQAACAMgtX+KJzWGm4MCdJK6MHVELBaLxWKxWCwWi8VisVj8MV7qBgI2A8rYpgAAAABJRU5ErkJggg==">
+				</div>
+		
+				<div class="list-item__center list-item--material__center">
+					<div class="list-item__title list-item--material__title">Bob</div>
+					<div class="list-item__subtitle list-item--material__subtitle">Description</div>
+				</div>
+		
+				<div class="list-item__right list-item--material__right">
+					<i style="color:#ccc" class="list-item__icon list-item--material__icon zmdi zmdi-comment"></i>
+				</div>
+			</li>
+			<li class="list-item list-item--material">
+				<div class="list-item__left list-item--material__left">
+					<img class="list-item__thumbnail list-item--material__thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wwJCB8v/9zErgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAvSURBVFjD7c0BDQAACAMgtX+KJzWGm4MCdJK6MHVELBaLxWKxWCwWi8VisVj8MV7qBgI2A8rYpgAAAABJRU5ErkJggg==">
+				</div>
+		
+				<div class="list-item__center list-item--material__center">
+					<div class="list-item__title list-item--material__title" style="color:#000">Bob</div>
+					<div class="list-item__subtitle list-item--material__subtitle">Description</div>
+				</div>
+		
+				<div class="list-item__right list-item--material__right">
+					<i style="color:#ccc" class="list-item__icon list-item--material__icon zmdi zmdi-comment"></i>
+				</div>
+			</li>
+			<li class="list-item list-item--material">
+				<div class="list-item__left list-item--material__left">
+					<img class="list-item__thumbnail list-item--material__thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wwJCB8v/9zErgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAvSURBVFjD7c0BDQAACAMgtX+KJzWGm4MCdJK6MHVELBaLxWKxWCwWi8VisVj8MV7qBgI2A8rYpgAAAABJRU5ErkJggg==">
+				</div>
+		
+				<div class="list-item__center list-item--material__center">
+					<div class="list-item__title list-item--material__title">Bob</div>
+					<div class="list-item__subtitle list-item--material__subtitle">Description</div>
+				</div>
+		
+				<div class="list-item__right list-item--material__right">
+					<i style="color:#ccc" class="list-item__icon list-item--material__icon zmdi zmdi-comment"></i>
+				</div>
+			</li>
+		
+		</ul>
+		<script src="src/index.js"></script>
+		
+  </body>
+</html>
